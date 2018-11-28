@@ -1,7 +1,7 @@
 # Data-Structure
-some sample codes while learning data structure in C
-*This is for you.*
+some sample codes while learning data structure in C.
 ***
+*This is for you.*
 
 1. Linked Lists
 * Single Linked List Without Head Node

@@ -16,6 +16,12 @@
 #define MAX_SIZE 100
 #define INF 0x3f3f3f3f
 
+typedef struct edge {
+    int u, v, w;
+} edge;
+typedef struct UnionFind {              //union find
+    int fa[MAX_SIZE];
+} UnionFind;
 typedef struct MartixGraph {
     int size;
     int map[MAX_SIZE][MAX_SIZE];
@@ -23,6 +29,7 @@ typedef struct MartixGraph {
 
 MartixGraph CreateMartixGraph(int size);                //create a new empty graph
 void AddEdge_Martix(MartixGraph *g, int u, int v, int w);               //add a new undirected edge (u,v) weighted w
-int ShortestPath(MartixGraph g, int u, int v);              //shortest path between u and v
+int ShortestPath_Martix(MartixGraph g, int u, int v);              //shortest path between u and v
+int MinCostSpanTree(MartixGraph g);             //minimum cost spaning tree
 
 #endif /* AdjancencyMartix_h */

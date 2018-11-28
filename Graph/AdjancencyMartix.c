@@ -1,12 +1,12 @@
 //
-//  AdjancencyMartix.c
+//  AdjacencyMartix.c
 //  Data Structures
 //
 //  Created by 倪思涛 on 2018/11/27.
 //  Copyright © 2018 倪思涛. All rights reserved.
 //
 
-#include "AdjancencyMartix.h"
+#include "AdjacencyMartix.h"
 
 MartixGraph CreateMartixGraph(int size)                //create a new empty graph
 {

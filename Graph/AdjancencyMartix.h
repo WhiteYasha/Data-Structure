@@ -1,15 +1,15 @@
 //
-//  AdjancencyMartix.h
+//  AdjacencyMartix.h
 //  Data Structures
 //
 //  Created by 倪思涛 on 2018/11/27.
 //  Copyright © 2018 倪思涛. All rights reserved.
 //
 
-#ifndef AdjancencyMartix_h
-#define AdjancencyMartix_h
+#ifndef AdjacencyMartix_h
+#define AdjacencyMartix_h
 
-//adjancency martix weighted undirected graph
+//adjacency martix weighted undirected graph
 
 #include <stdio.h>
 #include <stdlib.h>

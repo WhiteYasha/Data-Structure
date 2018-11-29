@@ -1,5 +1,5 @@
 # Data-Structure
-some sample codes while learning data structure in C.
+some sample codes based on *Fundamentals of data structures in C*.
 ***
 *This is for you.*
 

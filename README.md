@@ -8,6 +8,7 @@ some sample codes based on *Fundamentals of data structures in C*.
 * Non-decreasing Single Linked List With Head Node
 * Single Linked Stack
 * Single Linked Queue
+* Circular Linked List
 2. Tree
 * Binary Tree
 * Binary Search Tree

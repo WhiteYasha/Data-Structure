@@ -13,4 +13,5 @@ some sample codes while learning data structure in C.
 * Binary Search Tree
 * Max Heap
 3. Graph
-* Adjancency Martix Graph
+* Adjacency Martix Graph
+* Adjacency List Graph

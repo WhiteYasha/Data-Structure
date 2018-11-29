@@ -27,11 +27,13 @@ typedef struct Queue {
 typedef struct ListGraph {
     edge e[MAX_EDGE];
     int head[MAX_NODE];
+    int indegree[MAX_NODE];
     int tot;
 } ListGraph;
 
 ListGraph CreateListGraph();               //create a new empty list graph
 void AddEdge_List(ListGraph *lg, int u, int v, int w);              //add a new edge
 int ShortestPath_List(ListGraph lg, int u, int v);             //shortest path from u to v
+void TopoSort(ListGraph lg);               //AOV Network Sort
 
 #endif /* AdjacencyList_h */

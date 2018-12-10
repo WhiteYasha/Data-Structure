@@ -53,7 +53,6 @@ int ShortestPath_List(ListGraph lg, int u, int v)             //shortest path fr
     while (!IsEmpty(q)) {
         int now = q.data[q.front];
         PopQueue(&q);
-        vis[now] = 0;
         for (int i = lg.head[now]; i != -1; i = lg.e[i].next) {
             int next = lg.e[i].to;
             if (dis[next] > dis[now] + lg.e[i].len) {

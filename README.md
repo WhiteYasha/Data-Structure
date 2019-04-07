@@ -1,7 +1,6 @@
 # Data-Structure
 some sample codes based on *Fundamentals of data structures in C*.
 ***
-*I wrote this for you.*
 
 1. Linked Lists
 * Single Linked List Without Head Node
